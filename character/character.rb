@@ -24,6 +24,10 @@ class Character
       timeLeft = @ailments[key]
       @ailments[key] = timeLeft - 1
     end
+  
+  def writeCharacterSheet
+    File.write("./#{@name}.txt", "#{@name}\n#{@ailments}\n"
+  end
 
  end
 
