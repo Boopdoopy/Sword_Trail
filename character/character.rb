@@ -14,18 +14,20 @@ class Character
   end
 
   def display
-  puts "You are #{@name}"
+    puts "You are #{@name}"
   end
+
   #Adding Conditions
   def applyDisease(disease, time)
     @ailments[disease] = time
   end
+
   #Introducing Entropy
   def timeCount
     @ailments.each_key do |key|
-      timeLeft = @ailments[key]
-      @ailments[key] = timeLeft - 1
-    end
+    timeLeft = @ailments[key]
+    @ailments[key] = timeLeft - 1
+  end
 
  end
 
