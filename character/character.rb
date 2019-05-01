@@ -25,8 +25,17 @@ class Character
   #Introducing Entropy
   def timeCount
     @ailments.each_key do |key|
+<<<<<<< HEAD
     timeLeft = @ailments[key]
     @ailments[key] = timeLeft - 1
+=======
+      timeLeft = @ailments[key]
+      @ailments[key] = timeLeft - 1
+    end
+  
+  def writeCharacterSheet
+    File.write("./#{@name}.txt", "#{@name}\n#{@ailments}\n"
+>>>>>>> 9e2ab9d051c8dcc508d6363fb431f136e8dac2b5
   end
 
  end
