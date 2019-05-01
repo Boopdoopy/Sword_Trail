@@ -1,0 +1,40 @@
+D probability on separate table
+    pull a random number
+    make bad water one item on that table
+    when bad water comes up, it adds a disease to the table, making it possible to happen
+    multiple bad water pulls then make disease more likely
+    add a "feels better" option, a chance for random cure
+
+master hash of events
+    make keys symbols
+    four types: disease, loot, social, battle
+
+list of events
+    cholera
+    consumption
+    typhus
+    measels
+    chicken pox
+    toothache
+    syphillus
+    broken limb
+    animal death
+    traders
+    magic item
+    bandit attack
+    trail guide
+    tinkerer
+    animal carcass
+    food spoilage?
+    natural disaster
+        forest fire
+        earthquake
+        flood
+        thunderstorm
+    abandonded wagon/loot
+    "abandonded" wagon
+    animal attack
+    ancient ruins
+    druid grove
+    
+possibility to "prestige" and draw random events from a new table that have different events
