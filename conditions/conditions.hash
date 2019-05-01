@@ -1,0 +1,11 @@
+conditions
+#RNG For Key
+#Put Array(Disease,Time)
+#Puts Disease, Time
+#+10 to RNG if traveling fast
+#if higher than 100, do 100.
+
+Conditions = {
+  :consumption => { "name" => "Consumption", "time" => 3, "symptoms" => "Fever, Chest pain, Night sweats" }
+  :typhus => { "name" => "Typhus", "time" => 4, "symptoms" => "Severe headache, Fever, Stomach pain, Vomiting" }
+}
