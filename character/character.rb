@@ -8,18 +8,20 @@ ailments = { "Consumption" => 1, "Space Aids" => 2 }
 # Character Creation
 class Character
   def initialize(name)
-  # Instance Variables
+    # Instance Variables
   @name = name
   @ailments = {}
   end
 
   def display
-  puts "You are #{@name}"
+    puts "You are #{@name}"
   end
+
   #Adding Conditions
   def applyDisease(disease, time)
     @ailments[disease] = time
   end
+
   #Introducing Entropy
   def timeCount
     @ailments.each_key do |key|
@@ -28,7 +30,7 @@ class Character
     end
   
   def writeCharacterSheet
-    File.write("./#{@name}.txt", "#{@name}\n#{@ailments}\n"
+    File.write("./#{@name}.txt", "#{@name}\n#{@ailments}\n")
   end
 
  end
